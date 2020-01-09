@@ -6,11 +6,11 @@
     </van-dropdown-menu>
     订单详情:
     <div style="padding:0 2em">
-      <p>服务名称：{{$route.query.name}}</p>
-      <p>服务简介：{{$route.query.description}}</p>
-      <p>服务价格：{{$route.query.price}}</p>
+      <p>服务名称：</p>
+      <p>服务简介：</p>
+      <p>服务价格：</p>
       <p>服务数量：1</p>
-      <p>服务小计：{{$route.query.price * 1}}</p>
+      <p>服务小计：</p>
     </div>
     <div style="position:fixed;bottom:0;width:100%;">
       <van-button @click="submitHandler" block type="primary">提交订单</van-button>
